@@ -482,7 +482,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.team-item:hover .team-sm-link {
+.team-sm-link:hover,
+.team-sm-link:focus {
   background-color: #404bbf;
 }
 .team-item .team-sm-link {
