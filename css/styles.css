@@ -539,12 +539,15 @@ img {
 }
 .client-icon-link:hover,
 .client-icon-link:focus {
-  border: 1px solid #404bbf;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .client-icon-link:hover .client-icon,
 .client-icon-link:focus .client-icon {
   fill: #404bbf;
+  color: #404bbf;
+  border-color: #404bbf;
 }
 
 .footer-list {
