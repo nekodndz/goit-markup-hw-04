@@ -627,6 +627,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+/*
 .portfolio-cover {
   position: absolute;
   top: 0;
@@ -637,13 +638,22 @@ img {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 .portfolio-cover-text {
   color: var(--cloud, #f4f4fd);
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  position: absolute;
+  top: 0;
+  background: var(--iris, #4d5ae5);
+  height: 100%;
+  padding: 0 32px;
+  padding-top: 40px;
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .portfolio-cover {
   transform: translateY(0);
