@@ -721,8 +721,8 @@ img {
   background-color: #404bbf;
   border: none;
 }
-.modal-close-btn:hover .modal,
-.modal-close-btn:focus .modal {
+.modal-close-btn:hover .button-icon,
+.modal-close-btn:focus .button-icon {
   fill: #ffffff;
 }
 
